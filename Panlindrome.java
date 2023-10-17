@@ -1,10 +1,7 @@
-package arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-
-
-public class Arrays {
+public class Panlindrome {
     
     public static boolean palindromeChecker(String word){
         char stringArray[] = word.toCharArray();
@@ -23,8 +20,7 @@ public class Arrays {
         return isPalindrome;
     }
 
-    
-    
+      
     public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
         
@@ -40,9 +36,7 @@ public class Arrays {
            System.out.println("The string you entered is not a panlindrome.");
        }
     }
-    
-    
-    
+       
 }
 
 
