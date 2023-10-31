@@ -14,7 +14,7 @@ class LetterCounter {
     }
     
     public static void main(String[] args) {
-        int result = letterCounter("My name is Huzaifa and who are you?", "a");
+        int result = letterCounter("My name is Huzaifa and who are you?", 'a');
         System.out.println(result);
     }
     
